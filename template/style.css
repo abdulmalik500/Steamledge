@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Varela;
+    src: url("./Varela_Round/VarelaRound-Regular.ttf");
+};
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Varela;
+}
+body.wrapper {
+  background: url("img/esra.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #3BD418;
+}
+.nav li {
+  color: #100101;
+  padding: 20px 50px;
+}
+.nav ul {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+    list-style-type: none;
+}
+
+section {
+    margin-top: 2em;
+}
+.tab-contento {
+  margin-top: 50px;
+}

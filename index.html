@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascrpit</title>
+       
+        <body>
+<h1>LOGIN/LOGOUT</h1> <br/>
+<input type="button" id="logIn" value="Click to use the LogIn">
+<input type="button" id="logOut" value="Click to use the LogOut">
+
+<h1>CALCULATOR</h1> <br/>
+
+<input type="button" id="add" value="ADDITION">
+<input type="button" id="minus" value="SUBTRACTION">
+<input type="button" id="multiply" value="MULTIPLICATION">
+<input type="button" id="divide" value="DIVISION">
+        
+<h1>ATM MACHINE</h1> <br/>
+<input type="button" id="userId" value="INPUT PIN"><br />
+<span><input type="button" id="withdraw" value="WITHDRAW"></span>
+<span><input type="button" id="deposit" value="DEPOSIT"></span>
+<span><input type="button" id="chk_balance" value="CHECK BALANCE"></span>
+<span><input type="button" id="transfer" value="TRANSFER"></span>
+<br />
+<h1> script </h1>
+<input type="button" id="messageButton" value="Click to test JavaScript">
+<input type="button" id="pali" value="Check palindrome"><br />
+
+<h1>NUMERAL TO ROMAN CONVERTER</h1>
+<input id="text-input" type="text">
+<button id="convert-button" onClick="var n = parseInt(document.getElementById('text-input').value);
+            document.getElementById('text-output').value = convert(n);">Convert!</button>
+<input id="text-output" style="display:block" type="text">
+
+<input type="button" id="brute" value="display">        
+<p>After a function has been stored in a variable,
+    the variable can be used as a function:</p>
+    
+    <p id="demo"></p>
+    <p id="geto"></p>
+    <script>
+
+var person = {
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+var person1 = {
+  firstName:"John",
+  lastName: "Doe"
+}
+var person2 = {
+  firstName:"Mary",
+  lastName: "Doe"
+}
+var person3 = {
+    firstName:"abdul",
+    lastName:"malik"
+}
+var x = person.fullName.call(person1);
+var y = person.fullName.call(person3); 
+  document.getElementById("demo").innerHTML = [x, y];
+        </script>
+        
+        </body>
+         
+        
+         
+          
+         
+        <script src="to_romans.js"> </script>
+        <script src="palindrome.js"> </script>
+        <script src="login.js"> </script>
+        <script src="ATM.js"> </script>
+        <script src="forLoop.js"> </script>
+        <script src="CALCULATOR.js"> </script> 
+        <script src="logout.js"> </script>
+        <script src="sumoften.js"> </script>
+        <script src="bruteForce.js"> </script>
+        <script src="function.js"> </script>
+
+        
+    </head>
+        
+</html>
+   
