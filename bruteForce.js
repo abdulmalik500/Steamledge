@@ -20,7 +20,8 @@
 //     // alert(nums);
 //   }
  
-
+var arr = [1, 2, 5, 7, 11, 15];
+var target = 9;
   function mostFrequent(arr, target){
       let result = []
       let numIndex = new Map();
@@ -40,6 +41,5 @@
   return result;
     
   }
-  var array = [1, 2, 5, 7, 11, 15];
-  var sum = 9;
-  mostFrequent(arr, target);
+
+  document.getElementById("geto").innerText = mostFrequent(arr, target);
