@@ -38,28 +38,37 @@
     
     <p id="demo"></p>
     <p id="geto"></p>
+    <p id="beta"></p>
     <script>
-
+// THIS IS AN OBJECT THAT CAN BE CALLED UPON
 var person = {
-  fullName: function() {
-    return this.firstName + " " + this.lastName;
+  fullName: function(city, country) {
+    return this.firstName + " " + this.lastName + ", " + city + ", " + country;
   }
 }
 var person1 = {
   firstName:"John",
-  lastName: "Doe"
+  lastName: "Doe",
+  city: "Kano",
+  country: "Nigeria"
 }
 var person2 = {
   firstName:"Mary",
-  lastName: "Doe"
+  lastName: "Doe",
+  city: "Lagos",
+  country: "Nigeria"
 }
 var person3 = {
     firstName:"abdul",
     lastName:"malik"
 }
-var x = person.fullName.call(person1);
-var y = person.fullName.call(person3); 
-  document.getElementById("demo").innerHTML = [x, y];
+var x = person.fullName.call(person1, "Kano", "Nigeria");
+var y = person.fullName.call(person2); 
+document.getElementById("demo").innerHTML = [x, y];
+
+// this selects the highest number in an array
+document.getElementById("beta").innerHTML = Math.max.apply(null, [1,2,3]);
+
         </script>
         
         </body>
@@ -77,7 +86,9 @@ var y = person.fullName.call(person3);
         <script src="logout.js"> </script>
         <script src="sumoften.js"> </script>
         <script src="bruteForce.js"> </script>
-        <script src="function.js"> </script>
+        <!--
+          <script src="function.js"> </script>
+        -->
 
         
     </head>

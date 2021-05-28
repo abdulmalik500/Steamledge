@@ -12,6 +12,7 @@ var scoreAvg = Math.ceil(.000001);
 var bigDecimal = Math.random();
 var improvedNum = (bigDecimal * 6) + 1;
 var numberOfStars = Math.floor(improvedNum);
+Math.max(1,2,3,56); // returns the highest number in an array
 
 //methods on it like charAt(), indexOf(), or slice().
 

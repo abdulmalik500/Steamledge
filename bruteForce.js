@@ -41,5 +41,4 @@ var target = 9;
   return result;
     
   }
-
   document.getElementById("geto").innerText = mostFrequent(arr, target);
