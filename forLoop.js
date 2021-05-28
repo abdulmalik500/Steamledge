@@ -57,7 +57,7 @@ var lastchar = text.lastIndexOf("R"); //word for finding the index of the lastch
  * string represented by one variable can be found 
  * somewhere within a string represented by a second variable.
  */
-if (var2.indexOf(var1.slice(0, 3)) !== -1) {}
+// if (var2.indexOf(var1.slice(0, 3)) !== -1) {}
 
 if (firstChar !== -1) {
 for (var i = 0; i < text.length; i++) {

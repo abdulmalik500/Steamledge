@@ -38,21 +38,21 @@ function checkPalindrome(str) {
 
 
 // extracting the first character
-var firstChar = firstName.slice(0, 1);
+// var firstChar = firstName.slice(0, 1);
 
-// extracting the last character
-var lastChar = lastChar.slice(text.length - 1);
+// // extracting the last character
+// var lastChar = lastChar.slice(text.length - 1);
 
-// looking for an exclamation point
-for (var i = 0; i < text.length; i++) {
-    if (text.charAt(i) === "!") {
-        alert("Exclamation point found!");
-        break;
-    }
-}
+// // looking for an exclamation point
+// for (var i = 0; i < text.length; i++) {
+//     if (text.charAt(i) === "!") {
+//         alert("Exclamation point found!");
+//         break;
+//     }
+// }
 
-//The code above converts the number 1234 to the string "1234" and assigns it to the
-//variable numberAsString.
+// //The code above converts the number 1234 to the string "1234" and assigns it to the
+// //variable numberAsString.
 
-var numberAsNumber = 1234;
-var numberAsString = numberAsNumber.toString();
+// var numberAsNumber = 1234;
+// var numberAsString = numberAsNumber.toString();
