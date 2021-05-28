@@ -1,11 +1,12 @@
-// var bruteForceTwoSum = (array, sum) => {
-//     var array = [2, 3, 4, 3, 6, 7];
-//     var sum = 9;
-
+// var array = [2, 3, 4, 3, 6, 7];
+// var sum = 9;
+// function bruteForceTwoSum(array, sum) {
+// // var bruteForceTwoSum = (array, sum) => {
+  
 //     var nums = []
 
-//     for(var x in array){
-//         for(var y in array){
+//     for (var x = 0; x < array.length; x++) {
+//         for(var y = 0; y < array.length; y++) {
 //         	// see if array[x] + array[y] === sum
 //               // save successful combos to nums array
 //               if (array[x] + array[y] === sum){
@@ -19,7 +20,7 @@
 //     return nums
 //     // alert(nums);
 //   }
- 
+//   document.getElementById("geto").innerText = bruteForceTwoSum(array, sum);
 var arr = [1, 2, 5, 7, 11, 15];
 var target = 9;
   function mostFrequent(arr, target){
@@ -42,3 +43,5 @@ var target = 9;
     
   }
   document.getElementById("geto").innerText = mostFrequent(arr, target);
+
+  
